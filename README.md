@@ -3,4 +3,5 @@ Implementation of a 2D EKF-SLAM solver in Python to recover the trajectory of th
 The measurement (observing the surrounding environment and measuring some landmarks) and control (executing a control input to move) steps are repeated several times.  
   
 The result:  
+In the output figure, the magenta and blue ellipses represent the predicted and updated uncertainties of the robot’s position at each time respectively. Also, the red and green ellipses represent the initial and all the updated uncertainties of the landmarks, respectively.
 ![GitHub Logo](/results/result.png)
